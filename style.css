@@ -1,0 +1,322 @@
+
+@media screen and (max-width: 480px)
+{
+    .Table{
+        font-size: 14px;
+    }
+    .HeaderLogo{
+        font-size: 14px;
+    }
+    .HeaderNav{
+        font-size: 14px;
+    }
+    .footer{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .Table{
+        font-size: 16px;
+    }
+    .HeaderLogo{
+        font-size: 16px;
+    }
+    .HeaderNav{
+        font-size: 16px;
+    }
+    .footer{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1024px)
+{
+    .Table{
+        font-size: 18px;
+    }
+    .HeaderLogo{
+        font-size: 18px;
+    }
+    .HeaderNav{
+        font-size: 18px;
+    }
+    .footer{
+        font-size: 18px;
+    }
+    
+}
+
+
+
+body{
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20200817/ourmid/pngtree-pink-gradient-yogurt-machine-psd-layered-main-picture-background-material-png-image_394726.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    font-size: 18px;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+
+header{
+    background-color: plum;
+    color: blanchedalmond;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Header{
+
+}
+
+@media screen and (max-width: 480px){
+    .Header{
+        font-size: 14px;
+    }
+}
+
+
+
+.HeaderLogo{
+    width: 10%;
+    height: 100%;
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+@media screen and (max-width: 480px){
+    .HeaderLogo{
+        font-size: 14px;
+    }
+}
+    
+.HeaderNav{
+    width: 30%;
+    height: 100%;
+    background-color: palevioletred;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 480px){
+    .HeaderNav{
+        font-size: 14px;
+    }
+}
+
+.HeaderNav a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+@media screen and (max-width: 480px){
+    .HeaderNav a{
+        font-size: 14px;
+    }
+}
+
+.NavAbout{
+    width: 20%;
+    padding: 10px 0 10px 0;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+}
+@media screen and (max-width: 480px){
+    .NavAbout{
+        font-size: 14px;
+    }
+}
+.NavAbout:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.788);
+}
+
+.NavServices{
+    width: 20%;
+    padding: 10px 0 10px 0;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+.NavServices:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.788);
+}
+
+.NavProjects{
+    width: 20%;
+    padding: 10px 0 10px 0;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+.NavProjects:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.788);
+}
+
+.NavContact{
+    width: 20%;
+    padding: 10px 0 10px 0;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+.NavContact:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.788);
+}
+
+
+#Titulo1{
+    width: 100%;
+    color: palevioletred;
+    display: flex;
+    justify-content: center;
+    height: 4vh;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+}
+
+#MainLogo{
+    display: flex;
+    justify-content: center;
+}
+
+
+.Table{
+    width: 100%;
+    display: flexbox;
+    justify-content: space-around;
+}
+
+th, td{
+    padding: 10px;
+}
+
+#TituloPedidos{
+    font-family: 'Anton', sans-serif;
+    width: 20%;
+    padding: 10px 0 10px 0;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+#TituloPedidos:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.788);
+}
+
+
+
+#TituloContactos{
+    font-family: 'Anton', sans-serif;
+    width: 20%;
+    padding: 10px 0 10px 0;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+#TituloContactos:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.788);
+}
+
+
+#TituloReseñas{
+    font-family: 'Anton', sans-serif;
+    width: 20%;
+    padding: 10px 0 10px 0;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+#TituloReseñas:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.788);
+}
+
+#TextoN{
+    font-family: 'Shalimar', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+
+#Video{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: plum;
+    color: blanchedalmond;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+#Footer_text{
+    width: 100%;
+    height: 100%;
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#Footer_F{
+    width: 33%;
+    height: 100%;
+    background-color: rgb(17, 88, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+#Footer_T{
+    width: 33%;
+    height: 100%;
+    background-color: rgb(93, 193, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+#Footer_I{
+    width: 33%;
+    height: 100%;
+    background-color: rgb(228, 55, 84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+a{
+    text-decoration-line: none;
+}
+
+a :hover{
+    color: white;
+    text-decoration-color: white;
+}
